@@ -20,10 +20,9 @@ $f3 = Base::instance();
 $f3->route('GET /', function ($f3) {
     //echo '<h1>My Pets!</h1>';
 
-
     //Display a view page
     $view = new Template();
-    echo $view->render('views/info.html');
+    echo $view->render('views/home.html');
 });
 
 
